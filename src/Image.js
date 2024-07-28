@@ -6,7 +6,7 @@ const ImageApp = () => {
   const [image, setImage] = useState(null);
 
   const openai = new OpenAI({
-    apiKey: "sk-proj-8xgvyDsr7sA0XoHhkyuxT3BlbkFJv7KBCpnTOAICh5gZ9GwD",
+    apiKey: "API KEY",
     dangerouslyAllowBrowser: true,
   });
 
