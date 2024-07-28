@@ -1,10 +1,56 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header {
+  font-size: 2em;
+  background-color: #023e8a; 
+  text-align: center;
+  padding:20px;
+}
+
+#header h1 {
+  color: #f5ebe0;
+  font-size: 2em;
+  text-align: center;
+}
+
+#prompt {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 2% auto;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  margin: 10% auto;
+}
+
+#text-box {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+button {
+  width: 50%;
+  margin: 5% auto;
+  font-size: 1.5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
